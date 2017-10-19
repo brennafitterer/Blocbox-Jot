@@ -43,22 +43,28 @@ p {
   min-height: 1px;
   margin:0 2% 20px;
 }
-@media (min-width: 400px) {
-.one-half, .one-third, .one-fourth  {
-  width: 45%;
+
+@media (max-width: 400px) {
+  .one-half2  {
+    width: 100%;
+  }
+  header nav ul {
+    margin: -62px 0 0 0;
+  }
+  header nav ul > li.btn-outline {
+    margin: 0 0 0 5px;
+  }
+  header .hero img {
+    width: 80%;
+  }
+  footer p, footer nav ul{
+    padding-left: 0;
+  }
+  footer .logo {
+    padding-top:0;
+  }
 }
-header nav ul {
-  padding: 0px;
-}
-header nav ul > li {
-  margin: 0;
-}
-header nav ul > li.btn-outline {
-  margin: 0 0 0 5px;
-}
-header .hero img {
-  width: 80%;
-}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
