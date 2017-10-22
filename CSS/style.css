@@ -569,3 +569,9 @@ footer .logo{
      margin:0 1% 25px;
    }
  }
+
+ /* Active class */
+
+ a.color-select:active{
+   background-color: #34495E;
+ }
