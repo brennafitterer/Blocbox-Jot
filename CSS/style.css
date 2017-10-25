@@ -443,7 +443,6 @@ footer .logo{
       display:none;
     }
 }
-
   .left-nav .site-logo {
     padding:20px 0;
     background:#34495E;
@@ -509,7 +508,12 @@ footer .logo{
   text-align: right;
   float: right;
   margin-right:10px;
-  margin-top:8px;
+  margin-top:-5px;
+}
+.left-nav .menu-settings li a {
+  float:left;
+  width: 100px;
+  font-size: 12px;
 }
 
 /* CONTENT */
@@ -634,6 +638,10 @@ footer .logo{
 
  /* Active class */
 
- a.color-select:active{
+  .active{
    background-color: #34495E;
+   background-color:#15A9E0;
+   background-size: cover;
+   position: relative;
+   padding: 5px 0;
  }
